@@ -1,0 +1,523 @@
+body {
+  font-family:aleoregular;
+      color: #0e090d;
+    background-color: #0e090d;
+}
+h2 {
+    padding-bottom: 20px;
+}
+.box {
+    margin-bottom: 10px;
+}
+
+.user-panel > .image > img {
+    min-height: 31px;
+}
+
+.noresize {
+    resize: none;
+}
+
+.child {
+    background-image:  linear-gradient(to right, RGB(110,175,233), RGB(110,175,233));
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.hand {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.rowGuardar {
+    margin-top: 10px;
+}
+
+.rowtable {
+    margin-top: -10px;
+}
+
+.content-header>.breadcrumb {
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.ui-tooltip, .arrow:after {
+    background: #3c8dbc;
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: 13px 'Source Sans Pro',"Helvetica Neue", Sans-Serif;
+    box-shadow: 0 0 7px #3c8dbc;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px #3c8dbc;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+#gmap {
+  width:100%;
+  height:400px;
+  display:block;
+
+
+  /*-webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+       filter: grayscale(100%);
+       filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+       filter: gray; */
+
+  z-index:1;
+}
+#gmap_default {
+  width:100%;
+  height:400px;
+  display:block;
+}
+
+
+#gmap2 {
+  width:100%;
+  height:400px;
+  display:block;
+
+
+  /*-webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+       filter: grayscale(100%);
+       filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+       filter: gray; */
+
+  z-index:1;
+}
+#gmap2_default {
+  width:100%;
+  height:400px;
+  display:block;
+}
+
+.oculta { display:none;}
+
+.list-inline > li {margin-bottom:10px;}
+
+.both { clear: both; }
+
+.example-image-link:hover {
+box-shadow: 0 0 5px #000;
+display: block;}
+
+.example-image { margin-bottom: 20px; }
+
+.form-group {
+    margin-bottom: 5px!important;
+}
+section {
+  min-height:300px;
+} 
+#sponsors {
+  background:lightgrey;
+}
+li{
+  list-style: none;
+}
+.logo {
+    margin-top: -15px;
+}
+#paquetes{
+      background: url('../img/paquetes.png') repeat-x;
+      min-height: 514px;
+      background-position: bottom;
+}
+#paquetes h2 {
+  color:#DBA02A;
+}
+#paquetes .paquete {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.16);
+    height: auto;
+    background: white;
+    border-top: 7px solid #00283D;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+
+#sponsors-contacto {
+     height: 100%;
+     background: linear-gradient(90deg, #121212 50%, #ECEDEF 50%);
+}
+
+
+
+div#sponsors-contacto
+.row > .col-lg-6 {
+    padding: 30px;
+}
+
+form#contactForm {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#contactForm .form-group {
+    border-bottom: 1px solid #717175;
+    padding: 0;
+    margin: 0;
+    border-top: 0;
+}
+#contactForm input, #contactForm textarea {
+    font-size: 14px;
+}
+footer.footer-1 .upper {
+    padding: 0px 0;
+}
+.footer-1 .upper {
+    padding: 50px 0;
+    color: #f4f5f7;
+    background-color: #0E090D;
+}
+
+.navbar a{
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.fill {
+    padding-top: 89px;
+}
+section#inscripcion {
+    background: white;
+    padding-bottom: 0;
+}
+section#conferencistas {
+
+    background: linear-gradient(to right, #55525c 0%,#55525c 50%,#ada05e 50%,#ada05e 50%,#ada05e 100%);
+    color:#fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.paquete .title {
+    font-family: bebas_neueregular;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+} 
+
+.paquete .body {
+    font-family: aleobold;
+}
+
+.paquete .precio {
+    font-family: aleobold;
+    width: auto;
+    background: #ECEDEF;
+    padding: 5px;
+}
+div#contact-action .form-group {
+    border: none;
+}
+
+button#contact-button {
+    float: right;
+    background: none;
+    border: 1px solid #717175;
+    color: #717175;
+    margin-top: 15px;
+    font-family: aleobold;
+    font-size: 14px;
+}
+
+.item {
+    height: auto!important;
+}
+.intro-slider, .intro-slider-half {
+  height:auto;
+}
+
+.paquete a {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: -95px;
+    left: 50%;
+}
+
+.paquete .precio {
+    position: absolute;
+    bottom: 50px;
+    width: 80%;
+}
+
+.conferencia{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-size: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.kara{
+  background-image: url('../img/kara.png');
+}
+.raul{
+  background-image:url('../img/raul.png');
+}
+.scott{
+  background-image:url('../img/scott.png');
+}
+.michel{
+  background-image:url('../img/michel.png');
+}
+.boris{
+  background-image:url('../img/boris.png');
+}
+.pete{
+  background-image:url('../img/pete.png');
+}
+.hernan{
+  background-image:url('../img/hernan.jpg');
+  background-size: cover;
+  background-position: -38px;
+} 
+.marcos{
+  background-image:url('../img/marcos.jpg');
+  background-size: cover;
+  background-position: -18px;
+}
+.gary{
+  background-image:url('../img/gary.png');
+}
+.scott {
+    background-image: url(../img/scott.png);
+    background-size: 103%;
+    background-position: 0px;
+}
+.bruno{
+  background-image:url('../img/bruno.png');
+}
+.murilo{
+  background-image:url('../img/murilo.png');
+}
+
+.tema.col-xs-12 {
+    font-size: 13px;
+}
+
+.conferencia .disertante {
+    white-space: nowrap;
+}
+.coferencia-inner {
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 150px;
+    background: rgba(2, 55, 77, 0.74);
+    /* border-radius: 100%; */
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s all;
+    font-family: aleobold;
+}
+
+.coferencia-inner:hover {
+    opacity: 1;
+}
+ 
+.conferencia.michel .disertante {
+    font-size: 15px;
+}
+
+.owl-wrapper-outer {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+}
+
+div#contacto {
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.sponsors img {
+    width: 100%;
+    height: auto;
+}
+
+.sponsor.main {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.sponsors .col-xs-12 {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+img {}
+
+.sponsor.gold {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.sponsor.silver {
+    width: 30%;
+    float: left;
+}
+
+.sponsor.bronce {
+    width: 25%;
+    float: left;
+} 
+
+#inicio .fill img {
+    top: -70px;
+    position: relative;
+    width: 75%;
+}
+#wrapper {    margin-top: 0px;
+    float: left;
+    display: block;
+    height: auto;}
+
+    section#inscripcion {
+    background: white;
+    padding-bottom: 0;
+    float: left;
+    width: 100%;
+}
+.navbar-dark.top-nav-collapse {
+    background-color: #0E090D;
+    border-color: #0E090D;
+}
+.navbar-dark .navbar-brand .logo img, .navbar-light .navbar-brand .logo img, .navbar-dark .navbar-brand .logo-collapse img, .navbar-light .navbar-brand .logo-collapse img {
+    max-height: 72px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+  #wrapper{
+    margin-top: 35px!important;
+  }
+  #sponsors-contacto {
+    background:none;
+  }
+  div#contacto{
+    background:#ECEDEF;
+  }
+  #paquetes .paquete{  margin-bottom:25px;}
+
+  #paquetes {background:#DBA02A}
+  #paquetes h2 {
+    color:#fff;
+  }
+  .paquete .precio {
+    position: absolute;
+    bottom: 75px;
+    width: 81%;
+  }
+  .paquete a{
+    bottom:40px; 
+  }
+  .navbar-dark .navbar-brand .logo img, .navbar-light .navbar-brand .logo img, .navbar-dark .navbar-brand .logo-collapse img, .navbar-light .navbar-brand .logo-collapse img {
+    max-height: 50px;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 10px;
+  }
+	#cronograma img {
+	    max-width: 130%;
+	    position: relative;
+	    left: -18%;
+	}
+	#cronograma h1 {
+		display: block!important;
+	}
+	.navbar-dark, .navbar-light {
+    background-color: #0E090D;
+    margin-bottom: 0;
+    border-bottom: 1px solid #0E090D;
+}
+section#cronograma {
+    overflow: hidden;
+}
+
+section#inscripcion {
+    overflow: hidden;
+}
+div#sponsors-contacto {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} 
+#inicio .fill img {
+    width: 90%;
+}
+footer.footer-1 {
+    float: left;
+    width: 100%;
+}
+}
+
+#slider-conferencistas {
+    background: url('../img/conferencistas/back-conferencistas.png') no-repeat;
+    background-size: cover;
+}
+.sponsor {
+    margin: 10px;
+}
+#sponsors h3 {
+  margin: 15px;
+}
+#paquetes .paquete {
+  height: 300px;
+  font-size: 12px;
+} 
